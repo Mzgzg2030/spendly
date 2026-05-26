@@ -10,6 +10,10 @@ A web application for logging and categorizing personal expenses. Track where yo
 - Monthly summaries and date-range filtering
 - Clean, responsive UI
 
+## Screenshots
+
+> Screenshots coming soon.
+
 ## Tech Stack
 
 | Layer | Technology |
