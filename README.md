@@ -9,6 +9,8 @@ A web application for logging and categorizing personal expenses. Track where yo
 - Category-based spending breakdown (Bills, Food, Health, Transport, etc.)
 - Monthly summaries and date-range filtering
 - Clean, responsive UI
+- Terms and Conditions and Privacy Policy pages
+- YouTube demo modal on the landing page
 
 ## Screenshots
 
@@ -37,7 +39,9 @@ expense-tracker/
 │   ├── base.html       # Shared layout (navbar, footer)
 │   ├── landing.html    # Marketing landing page
 │   ├── login.html      # Login form
-│   └── register.html   # Registration form
+│   ├── register.html   # Registration form
+│   ├── terms.html      # Terms and Conditions page
+│   └── privacy.html    # Privacy Policy page
 └── static/
     ├── css/style.css
     └── js/main.js
@@ -86,6 +90,8 @@ pytest
 | Method | Path | Description |
 |---|---|---|
 | GET | `/` | Landing page |
+| GET | `/terms` | Terms and Conditions |
+| GET | `/privacy` | Privacy Policy |
 | GET/POST | `/register` | Create a new account |
 | GET/POST | `/login` | Sign in |
 | GET | `/logout` | Sign out |
